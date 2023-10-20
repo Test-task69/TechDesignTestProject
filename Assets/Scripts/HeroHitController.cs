@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class HeroHitController : MonoBehaviour
 {
-    [SerializeField] private AudioClip _attackSound;
-    
+    [SerializeField] private AudioClip _actionSound;
+    [SerializeField] private string _actionTrigger = "Attack";
+
     private Animator _animator;
-    private string _attackTrigger = "Attack";
     private AudioSource _audioSource;
 
     void Start()
@@ -16,8 +16,8 @@ public class HeroHitController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        _animator.SetTrigger(_attackTrigger);
-        _audioSource.clip = _attackSound;
+        _animator.SetTrigger(_actionTrigger);
+        _audioSource.clip = _actionSound;
         _audioSource.Play();
     }
 }
