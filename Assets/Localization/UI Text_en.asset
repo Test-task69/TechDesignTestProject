@@ -18,8 +18,12 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 348572434432
+  - m_Id: 32671632277504
     m_Localized: Next Level >>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32711931150336
+    m_Localized: << Previous Level
     m_Metadata:
       m_Items: []
   references:

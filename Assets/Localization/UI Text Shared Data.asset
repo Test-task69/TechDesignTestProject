@@ -15,8 +15,12 @@ MonoBehaviour:
   m_TableCollectionName: UI Text
   m_TableCollectionNameGuidString: 1c9d9804299fe6c4380a11a1e38f199b
   m_Entries:
-  - m_Id: 348572434432
+  - m_Id: 32671632277504
     m_Key: key_next_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32711931150336
+    m_Key: key_prev_level
     m_Metadata:
       m_Items: []
   m_Metadata:
