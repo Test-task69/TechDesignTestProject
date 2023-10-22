@@ -160,9 +160,45 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetLocalization
       objectReference: {fileID: 0}
+    - target: {fileID: 840092404379375855, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_Name
+      value: english
+      objectReference: {fileID: 0}
+    - target: {fileID: 840092404933590276, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 9761ffc6e0af89b41acce51d629c31b5, type: 3}
+    - target: {fileID: 840092404933590276, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 840092404933590276, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 840092404933590278, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_Name
+      value: text
+      objectReference: {fileID: 0}
     - target: {fileID: 1644154369031251953, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
       propertyPath: m_Name
-      value: Localization_canvas
+      value: localization_canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243006536080841595, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 9761ffc6e0af89b41acce51d629c31b5, type: 3}
+    - target: {fileID: 6243006536080841595, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243006536080841595, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243006536080841597, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_Name
+      value: text
       objectReference: {fileID: 0}
     - target: {fileID: 6243006537074173337, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -171,6 +207,10 @@ PrefabInstance:
     - target: {fileID: 6243006537074173337, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetLocalization
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243006537074173339, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
+      propertyPath: m_Name
+      value: russian
       objectReference: {fileID: 0}
     - target: {fileID: 8795533200193898814, guid: 3a7de9d611da494498b86f4202d2282c, type: 3}
       propertyPath: m_Pivot.x
@@ -267,7 +307,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1621596316488167180, guid: d9004c945536e504199d1ad777a88ce5, type: 3}
       propertyPath: m_Name
-      value: Main Camera
+      value: main_camera
       objectReference: {fileID: 0}
     - target: {fileID: 1621596316488167408, guid: d9004c945536e504199d1ad777a88ce5, type: 3}
       propertyPath: m_RootOrder
@@ -486,7 +526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3306767512096195553, guid: df39685caefe47f4d8bc67ae2e136ebc, type: 3}
       propertyPath: m_Name
-      value: Next_scene_loader
+      value: next_scene_loader
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df39685caefe47f4d8bc67ae2e136ebc, type: 3}
@@ -562,17 +602,33 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1008322913}
+    - target: {fileID: 4844703743596316485, guid: 4e504b94754213544a1f8629df185f04, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 9761ffc6e0af89b41acce51d629c31b5, type: 3}
+    - target: {fileID: 4844703743596316485, guid: 4e504b94754213544a1f8629df185f04, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844703743596316485, guid: 4e504b94754213544a1f8629df185f04, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844703743596316487, guid: 4e504b94754213544a1f8629df185f04, type: 3}
+      propertyPath: m_Name
+      value: text
+      objectReference: {fileID: 0}
     - target: {fileID: 4844703743636428713, guid: 4e504b94754213544a1f8629df185f04, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 915399072}
     - target: {fileID: 4844703743636428715, guid: 4e504b94754213544a1f8629df185f04, type: 3}
       propertyPath: m_Name
-      value: Next_level
+      value: next_level
       objectReference: {fileID: 0}
     - target: {fileID: 4844703743689819804, guid: 4e504b94754213544a1f8629df185f04, type: 3}
       propertyPath: m_Name
-      value: Canvas
+      value: canvas
       objectReference: {fileID: 0}
     - target: {fileID: 4844703743689819872, guid: 4e504b94754213544a1f8629df185f04, type: 3}
       propertyPath: m_Pivot.x
@@ -713,7 +769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6113237651866844182, guid: f9bf5542c9acf394e91a6971c169e25d, type: 3}
       propertyPath: m_Name
-      value: Localization_manager
+      value: localization_manager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9bf5542c9acf394e91a6971c169e25d, type: 3}
